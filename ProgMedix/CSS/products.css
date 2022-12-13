@@ -1,0 +1,26 @@
+.app__products-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 6px;
+}
+
+.product-item {
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.product-item p img {
+  width: 100%;
+}
+
+.custom__button {
+  background-color: orange;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 5px;
+}
+
+.custom__button:hover {
+  background: green;
+  color: white;
+}

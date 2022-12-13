@@ -1,0 +1,272 @@
+.navbar li a:hover {
+  background: white;
+}
+
+.app__commitment {
+  margin-top: 6rem;
+  padding: 4rem 7rem;
+  display: flex;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 105, 121, 1) 38%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+}
+
+.app__commitment-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.app__commitment-img {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.app__commitment-img p img {
+  width: 100%;
+}
+
+.custom__button {
+  background-color: orange;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 5px;
+}
+
+.custom__button:hover {
+  background: green;
+  color: white;
+}
+
+/* Services component */
+.app__services-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Cormorant Garamond", serif;
+}
+.app__services {
+  padding: 6.5rem 7rem;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 23, 121, 1) 38%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.app__services_allItems-container {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.app__services-card {
+  text-align: center;
+  border: 3px solid gray;
+  color: black;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 8px 9px 10px black;
+  background: rgb(212, 220, 198);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 220, 198, 1) 21%,
+    rgba(126, 207, 224, 1) 55%
+  );
+}
+
+.app__services-card:hover {
+  background: rgb(169, 253, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(169, 253, 29, 1) 11%,
+    rgba(252, 176, 69, 1) 44%
+  );
+  transition: 0.3s;
+}
+
+.app__services-card p img {
+  width: 56px;
+}
+
+.app__working_process-cardCotainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__working-process {
+  padding: 6rem 5rem;
+  background: rgb(90, 69, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(90, 69, 252, 1) 36%,
+    rgba(169, 253, 29, 1) 73%
+  );
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.app__working-process_heading {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.app__working_process-card {
+  text-align: center;
+  border: 2px solid black;
+  margin-right: 1.5rem;
+  padding: 5px 9px;
+  border-radius: 1rem;
+}
+
+.app__working_process-card p img {
+  width: 200px;
+  height: 200px;
+}
+
+.app__working_process-card p img:hover {
+  opacity: 0.5;
+}
+
+/* all specialists */
+
+.app__all-specialits {
+  padding: 6rem 5rem 9rem 5rem;
+
+  background: rgb(183, 208, 173);
+  background: linear-gradient(
+    90deg,
+    rgba(183, 208, 173, 1) 36%,
+    rgba(54, 233, 16, 1) 63%
+  );
+}
+
+.app__our-specialist_heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.app__all_specialist-cardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.app__specialist-card {
+  margin-right: 1.5rem;
+  border: 3px solid blue;
+  border-radius: 13px;
+}
+
+.app__specialist-card_text {
+  background: #1d2635;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  margin-top: -16px;
+  padding: 5px 9px;
+}
+
+.app__specialist-card p img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.app__specialist-card p img:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+/* Apply For Treatment Section */
+.app__free_treatment-section {
+  /* background: rgb(31, 19, 210); */
+  background: linear-gradient(
+    90deg,
+    rgba(31, 19, 210, 1) 37%,
+    rgba(64, 20, 147, 1) 52%,
+    rgba(47, 222, 10, 1) 87%
+  );
+  /* padding: 5rem 6rem 0rem 6rem; */
+  display: flex;
+}
+
+.app__free_treatment-section p input {
+  width: 326px;
+  height: 50px;
+  margin-right: 40px;
+  border-radius: 6px;
+}
+
+.app__free_treatment_Section-img {
+  display: flex;
+  flex: 1;
+}
+
+.app__free_treatment_Section-img img {
+  width: 126%;
+  height: 600px;
+  position: relative;
+  top: -124px;
+}
+
+.app__free_treatment-applySection {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+.app__free_treatment-applySection-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.app__free-treatment-applySection-personal_details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__free-treatment-applySection-doctors_details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* App Footer section */
+
+.app__footer-main {
+  background: rgb(26, 29, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 29, 29, 1) 22%,
+    rgba(33, 11, 40, 1) 46%,
+    rgba(115, 17, 119, 1) 74%,
+    rgba(10, 131, 222, 1) 92%
+  );
+}
+
+.app__footer-section {
+  padding: 5rem 6rem;
+
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.app__footer-children {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
